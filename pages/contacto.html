@@ -26,16 +26,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="servicios.html">Servicios</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="herramientas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Herramientas gratuitas
-              </a>
-              <ul class="dropdown-menu">
-                <li class="colornav-font"><a class="dropdown-item" href="herramientas.html"> Calendario para tus redes</a></li>
-                <li class="colornav-font "><a class="dropdown-item" href="herramientas.html"> ¿Cómo vender más a traves de reels? </a></li>
-                <li class="colornav-font"><a class="dropdown-item" href="herramientas.html">Plantillas de Canva para tus historias</a></li>
-                <li class="colornav-font"><a class="dropdown-item" href="herramientas.html">Lo que necesitas poner en un presupuesto</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="herramientas.html"> Herramientas gratuitas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="quiensoy.html"> Quien soy</a>
@@ -46,10 +38,56 @@
           </ul>
         </div>
     </nav>
-</body>
     <header> 
-        <img src="../imagenes/Portadaheadhome.png" alt="portada head">
+      <section class="fotohead">
+      <img src="../imagenes/portadacontacto.png"  class ="fotohead" alt="portada head">
+      </section>
     </header>
+    <div>
+      <h3 class="tituloprincipalservicios"> ¿Queres que nos contactemos? Dejanos tus datos. </h3>
+      <form class="row g-3 p-4">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label"> Nombre </label>
+          <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label"> Mail </label>
+          <input type="text" class="form-control" id="validationDefault02"  required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Rubro </label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2"> Me dedico a: </span>
+            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label"> Mi objetivo es: </label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label"> Estoy interesado en el servicio: </label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value=""> Gestion de redes sociales </option>
+            <option selected disabled value=""> Asesorias personalizadas </option>
+            <option selected disabled value=""> Creacion de contenido digital </option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+            Acepto terminos y condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit"> Enviar datos </button>
+        </div>
+    </div>
+    </form>
+
+    <!--
     <main> 
         <h1> Contacto</h1>
         <form action="envio.php">
@@ -74,6 +112,7 @@
             </div>
         </form>
     </main>
+    -->
     <footer class="fondoazul text-white py-5">
         <div class="container">
           <div class="row">
